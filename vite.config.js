@@ -2,8 +2,11 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
+// Use '/' for Vercel / local dev, or '/web_portfolio/' for GitHub Pages
+const base = process.env.BASE_URL || (process.env.GITHUB_ACTIONS && !process.env.VERCEL ? '/web_portfolio/' : '/')
+
 export default defineConfig({
-    base: process.env.BASE_URL || '/web_portfolio/',
+    base,
     plugins: [react()],
     build: {
         rollupOptions: {

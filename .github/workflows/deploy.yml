@@ -32,6 +32,8 @@ jobs:
       # Build the project
       - name: Build project
         run: npm run build
+        env:
+          BASE_URL: /web_portfolio/
 
       # Deploy to GitHub pages
       - name: Deploy to GitHub pages
