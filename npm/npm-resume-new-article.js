@@ -1,12 +1,12 @@
 /**
- * @author Ryan Balieiro
+ * @author Thorn Monyudom
  * @description Use this script to create new articles.
  *
  * @usage
  * npm run resume:make:article
  */
-import {useNpmLogger} from "./snippets/_npm-log.js"
-import {useNpmFileUtils} from "./snippets/_npm-files.js"
+import { useNpmLogger } from "./snippets/_npm-log.js"
+import { useNpmFileUtils } from "./snippets/_npm-files.js"
 import makeArticleComponent from "./templates/article-component-builder.js"
 
 import fs from "fs"
@@ -17,7 +17,7 @@ const fileUtils = useNpmFileUtils()
 
 const args = process.argv.slice(2)
 // No article name found...
-if(args.length === 0) {
+if (args.length === 0) {
     logger.log(logger.LogTypes.ERROR, "Please provide a component name. Example: npm run resume:article ArticleTestimonials")
     process.exit(1)
 }
@@ -29,14 +29,14 @@ const jsxPath = path.join(articlesDir, `${componentName}.jsx`)
 const scssPath = path.join(articlesDir, `${componentName}.scss`)
 
 // File exists...
-if(fs.existsSync(jsxPath) || fs.existsSync(scssPath)) {
-    logger.log(logger.LogTypes.ERROR,  "Article already exists.")
+if (fs.existsSync(jsxPath) || fs.existsSync(scssPath)) {
+    logger.log(logger.LogTypes.ERROR, "Article already exists.")
     process.exit(1)
 }
 
 // Name pattern checking...
-if(!componentName.startsWith("Article")) {
-    logger.log(logger.LogTypes.ERROR,  "Invalid article name. Articles should start with the word 'Article'. Eg: ArticleTestimonials or ArticleTimeline")
+if (!componentName.startsWith("Article")) {
+    logger.log(logger.LogTypes.ERROR, "Invalid article name. Articles should start with the word 'Article'. Eg: ArticleTestimonials or ArticleTimeline")
     process.exit(1)
 }
 

@@ -1,10 +1,10 @@
 /**
- * @author Ryan Balieiro
+ * @author Thorn Monyudom
  * @date 2025-05-10
  * @description This class is a wrapper for the article item data. It provides methods to parse and validate the data loaded from an article's list.
  */
 
-import {useUtils} from "/src/hooks/utils.js"
+import { useUtils } from "/src/hooks/utils.js"
 
 const utils = useUtils()
 
@@ -52,13 +52,13 @@ export default class ArticleItemDataWrapper {
         if (!rawNumber) return undefined
 
         const cast = Number(rawNumber)
-        if(isNaN(cast) || cast === null) return undefined
+        if (isNaN(cast) || cast === null) return undefined
 
         return utils.number.clamp(cast, min, max)
     }
 
     _parseColor(rawColor, theme) {
-        if(!rawColor)
+        if (!rawColor)
             return undefined
 
         const isDarkTheme = theme.getSelectedTheme()?.dark
@@ -69,7 +69,7 @@ export default class ArticleItemDataWrapper {
         const fillDarkColor = rawColor["fill"] || rawColor["color"] || rawColor["fillDark"] || rawColor["colorDark"]
         const fillLightColor = rawColor["fillLight"] || rawColor["colorLight"]
 
-        if(isDarkTheme) {
+        if (isDarkTheme) {
             return {
                 backgroundColor: bgDarkColor,
                 color: fillDarkColor
@@ -95,7 +95,7 @@ export default class ArticleItemDataWrapper {
     }
 
     _parseLink(rawLink, language) {
-        if(!rawLink)
+        if (!rawLink)
             return undefined
 
         const tooltipString = rawLink["tooltipString"]
@@ -110,7 +110,7 @@ export default class ArticleItemDataWrapper {
     }
 
     _parseLocales(locales, language) {
-        if(!locales)
+        if (!locales)
             return {}
 
         const translations = {
@@ -125,7 +125,7 @@ export default class ArticleItemDataWrapper {
             label: language.getTranslation(locales, "label", null),
         }
 
-        if(translations.list && Array.isArray(translations.list)) {
+        if (translations.list && Array.isArray(translations.list)) {
             translations.list = translations.list.map(item => {
                 return language.parseJsonText(item)
             })
@@ -135,7 +135,7 @@ export default class ArticleItemDataWrapper {
     }
 
     _parsePreview(rawPreview, language) {
-        if(!rawPreview)
+        if (!rawPreview)
             return {}
 
         const links = rawPreview["links"].map(rawLink => {
@@ -146,7 +146,7 @@ export default class ArticleItemDataWrapper {
         const supportedRatios = ["16:9", "1:1", "9:16"]
 
         let screenshotsAspectRatio = rawPreview["screenshotsAspectRatio"]
-        if(screenshots.length > 0 && supportedRatios.indexOf(screenshotsAspectRatio) === -1) {
+        if (screenshots.length > 0 && supportedRatios.indexOf(screenshotsAspectRatio) === -1) {
             screenshotsAspectRatio = "1:1"
             utils.log.warn("ArticleItemDataWrapper", "Invalid screenshotsAspectRatio value. Supported values are: " + supportedRatios.join(", ") + ". Using default value 1:1.")
         }
@@ -172,7 +172,7 @@ export default class ArticleItemDataWrapper {
     }
 
     get faIconStyle() {
-        if(!this.faIconColors)
+        if (!this.faIconColors)
             return null
 
         return {
@@ -182,23 +182,23 @@ export default class ArticleItemDataWrapper {
     }
 
     get imageAlt() {
-        if(this.label) return utils.string.stripHTMLTags(this.label)
-        if(this.locales.title) return utils.string.stripHTMLTags(this.locales.title)
+        if (this.label) return utils.string.stripHTMLTags(this.label)
+        if (this.locales.title) return utils.string.stripHTMLTags(this.locales.title)
         return "item-" + this.id
     }
 
     get fullLocation() {
         let location = ""
 
-        if(this.locales.province) location += this.locales.province
-        if(this.locales.province && this.locales.country) location += " – "
-        if(this.locales.country) location += this.locales.country
+        if (this.locales.province) location += this.locales.province
+        if (this.locales.province && this.locales.country) location += " – "
+        if (this.locales.country) location += this.locales.country
 
         return location
     }
 
     get shortLocation() {
-        if(this.locales.country) return this.locales.country
+        if (this.locales.country) return this.locales.country
         return this.locales.province
     }
 
@@ -229,11 +229,11 @@ export default class ArticleItemDataWrapper {
     }
 
     _parsePropForListing(name, value) {
-        if(value === null || value === undefined)
+        if (value === null || value === undefined)
             return ""
 
-        if(value instanceof Date) value = value.toLocaleDateString(undefined, { month: "long", year: "numeric" })
-        else if(Array.isArray(value)) value = utils.array.toHtmlList(value)
+        if (value instanceof Date) value = value.toLocaleDateString(undefined, { month: "long", year: "numeric" })
+        else if (Array.isArray(value)) value = utils.array.toHtmlList(value)
         else if (typeof value === "object") value = utils.json.sanitizeForLogs(value)
 
         return {

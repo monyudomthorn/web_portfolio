@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Thorn Monyudom
  * @description This file contains the customization of the typography.
  */
 
@@ -32,7 +32,7 @@ $lead-sizes: (
     display-6: (default: 6.5rem, xl: 6.25rem, lg: 6rem, md: 5.75rem, sm: 5.25rem),
     display-7: (default: 8rem, xl: 7.75rem, lg: 7.5rem, md: 7.25rem, sm: 6.75rem),
 
-    lead:   (default: 1.20rem, xl: 1.14rem, lg: 1.08rem, md: 1.02rem, sm: 0.90rem),
+    lead: (default: 1.20rem, xl: 1.14rem, lg: 1.08rem, md: 1.02rem, sm: 0.90rem),
     lead-2: (default: 1.40rem, xl: 1.33rem, lg: 1.26rem, md: 1.19rem, sm: 1.10rem),
     lead-3: (default: 1.75rem, xl: 1.66rem, lg: 1.58rem, md: 1.49rem, sm: 1.35rem),
     lead-4: (default: 2.25rem, xl: 2.14rem, lg: 2.03rem, md: 1.91rem, sm: 1.85rem),
@@ -61,37 +61,40 @@ $lead-sizes: (
 }
 
 @each $heading, $size in $heading-sizes {
-    #{$heading}, .#{$heading}, .eq-#{$heading} {
-        font-size: map-get($size, default)!important;
+
+    #{$heading},
+    .#{$heading},
+    .eq-#{$heading} {
+        font-size: map-get($size, default) !important;
 
         @include media-breakpoint-down(xl) {
-            font-size: map-get($size, xl)!important;
+            font-size: map-get($size, xl) !important;
         }
 
         @include media-breakpoint-down(md) {
-            font-size: map-get($size, md)!important;
+            font-size: map-get($size, md) !important;
         }
     }
 }
 
 @each $text, $size in $lead-sizes {
     .#{$text} {
-        font-size: map-get($size, default)!important;
+        font-size: map-get($size, default) !important;
 
         @include media-breakpoint-down(xl) {
-            font-size: map-get($size, xl)!important;
+            font-size: map-get($size, xl) !important;
         }
 
         @include media-breakpoint-down(lg) {
-            font-size: map-get($size, lg)!important;
+            font-size: map-get($size, lg) !important;
         }
 
         @include media-breakpoint-down(md) {
-            font-size: map-get($size, md)!important;
+            font-size: map-get($size, md) !important;
         }
 
         @include media-breakpoint-down(sm) {
-            font-size: map-get($size, sm)!important;
+            font-size: map-get($size, sm) !important;
         }
     }
 }

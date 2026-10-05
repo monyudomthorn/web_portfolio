@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Thorn Monyudom
  * @date 2025-05-10
  */
 
@@ -11,7 +11,7 @@ export const _validationUtils = {
     isSpam: (message) => {
         const matches = message.match(/[a-z]/gi)
         // Skip verification if the message isn't essentially written with English letters...
-        if(!matches || !matches.length || matches.length/message.length < 0.5)
+        if (!matches || !matches.length || matches.length / message.length < 0.5)
             return false
 
         // Heuristic 1: Check if the message is too short or has too few spaces

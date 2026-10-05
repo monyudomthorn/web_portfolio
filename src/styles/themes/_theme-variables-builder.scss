@@ -1,12 +1,28 @@
 /**
- * @author Ryan Balieiro
+ * @author Thorn Monyudom
  * @description Mixin to build theme color scheme variables.
  */
 
-$theme-contrast-steps: (1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%, 12.5%, 15%, 17.5%, 20%, 25%, 30%);
+$theme-contrast-steps: (
+    1%,
+    2%,
+    3%,
+    4%,
+    5%,
+    6%,
+    7%,
+    8%,
+    9%,
+    10%,
+    12.5%,
+    15%,
+    17.5%,
+    20%,
+    25%,
+    30%
+);
 
-@mixin build-theme(
-    $isDarkMode,
+@mixin build-theme($isDarkMode,
 
     $theme-primary,
     $theme-secondary,
@@ -39,8 +55,7 @@ $theme-contrast-steps: (1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%, 12.5%, 15%, 17.
 
     $theme-standard-borders,
     $theme-scrollbar-track,
-    $theme-scrollbar-thumb
-) {
+    $theme-scrollbar-thumb) {
     --theme-primary: #{$theme-primary};
     --theme-secondary: #{$theme-secondary};
     --theme-dark: #{$theme-dark};
@@ -97,6 +112,7 @@ $theme-contrast-steps: (1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%, 12.5%, 15%, 17.
         --theme-opacity-border-accent: #{rgba($theme-secondary, 0.35)};
         --theme-invert-filter: 1;
     }
+
     @else {
         --theme-links: #{darken($theme-primary, 5%)};
         --theme-links-hover: #{darken($theme-primary, 10%)};
@@ -128,6 +144,7 @@ $theme-contrast-steps: (1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%, 12.5%, 15%, 17.
             --theme-primary-#{$i}: #{darken($theme-primary, nth($theme-contrast-steps, $i))};
             --theme-secondary-#{$i}: #{lighten($theme-secondary, nth($theme-contrast-steps, $i))};
         }
+
         @else {
             --theme-background-darken-#{$i}: #{lighten($theme-background, nth($theme-contrast-steps, $i))};
             --theme-texts-#{$i}: #{lighten($theme-texts, calc(nth($theme-contrast-steps, $i)*2))};
@@ -142,6 +159,7 @@ $theme-contrast-steps: (1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%, 12.5%, 15%, 17.
         --theme-texts-light-3: #{darken($theme-secondary, 10%)};
         --theme-texts-light-4: #{darken($theme-secondary, 15%)};
     }
+
     @else {
         --theme-texts-light: var(--theme-texts-5);
         --theme-texts-light-2: var(--theme-secondary);

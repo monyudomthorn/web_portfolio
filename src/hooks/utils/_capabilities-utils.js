@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Thorn Monyudom
  * @date 2025-05-10
  */
 
@@ -31,7 +31,7 @@ export const _capabilitiesUtils = {
      */
     toggleFullscreen: () => {
         const isFullscreen = _capabilitiesUtils.isFullscreen()
-        if(isFullscreen) {
+        if (isFullscreen) {
             document.exitFullscreen()
                 .catch(err => {
                     console.warn(`Error attempting to exit full-screen mode: ${err.message}`)

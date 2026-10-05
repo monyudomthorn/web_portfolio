@@ -1,12 +1,12 @@
 /**
- * @author Ryan Balieiro
+ * @author Thorn Monyudom
  * @date 2025-05-10
  * @description This hook provides methods to interact with external APIs.
  */
 
 import emailjs from "@emailjs/browser"
-import {useConstants} from "/src/hooks/constants.js"
-import {useUtils} from "/src/hooks/utils.js"
+import { useConstants } from "/src/hooks/constants.js"
+import { useUtils } from "/src/hooks/utils.js"
 
 const constants = useConstants()
 const utils = useUtils()
@@ -30,10 +30,10 @@ const validators = {
         const minWordCountForMessage = 3
 
         const validations = [
-            { errorCode: constants.ErrorCodes.VALIDATION_EMPTY_FIELDS,      errorCondition: !name || !email || !subject || !message },
-            { errorCode: constants.ErrorCodes.VALIDATION_EMAIL,             errorCondition: !utils.validation.validateEmail(email) },
-            { errorCode: constants.ErrorCodes.VALIDATION_MESSAGE_LENGTH,    errorCondition: !utils.validation.isLongerThan(message, minWordCountForMessage),    messageParameter: minWordCountForMessage + 1},
-            { errorCode: constants.ErrorCodes.VALIDATION_MESSAGE_SPAM,      errorCondition: utils.validation.isSpam(message) },
+            { errorCode: constants.ErrorCodes.VALIDATION_EMPTY_FIELDS, errorCondition: !name || !email || !subject || !message },
+            { errorCode: constants.ErrorCodes.VALIDATION_EMAIL, errorCondition: !utils.validation.validateEmail(email) },
+            { errorCode: constants.ErrorCodes.VALIDATION_MESSAGE_LENGTH, errorCondition: !utils.validation.isLongerThan(message, minWordCountForMessage), messageParameter: minWordCountForMessage + 1 },
+            { errorCode: constants.ErrorCodes.VALIDATION_MESSAGE_SPAM, errorCondition: utils.validation.isSpam(message) },
         ]
 
         const error = validations.find(validation => validation.errorCondition)
@@ -42,10 +42,18 @@ const validators = {
             errorCode: error?.errorCode,
             errorParameter: error?.messageParameter,
             bundle: {
+                // EmailJS template parameters (matching template {{user_name}}, {{user_email}}, {{user_message}})
+                user_name: name,
+                user_email: email,
+                user_message: message,
+
+                // Standard / alternative variable names
                 name: name,
                 from_name: name,
                 email: email,
                 from_email: email,
+                reply_to: email,
+                subject: subject,
                 custom_subject: subject,
                 message: message,
                 custom_source: utils.url.getAbsoluteLocation(),
@@ -78,12 +86,13 @@ const handlers = {
     sendEmailRequest: async (validationBundle, publicKey, serviceId, templateId) => {
         emailjs.init(publicKey)
 
-        const response = {success: false}
+        const response = { success: false }
 
         try {
-            const result = await emailjs.send(serviceId, templateId, validationBundle)
+            const result = await emailjs.send(serviceId, templateId, validationBundle, publicKey)
             response.success = result.status === 200
         } catch (error) {
+            console.error("EmailJS Error:", error)
             response.success = false
         }
 
@@ -97,10 +106,10 @@ const analytics = {
      * Here, you can integrate Google Analytics, Mixpanel, or your own custom analytics implementation.
      * @returns {Promise<void>}
      */
-    reportVisit: async() => {
+    reportVisit: async () => {
         await fetch("https://admin.ryanbalieiro.com/api/analytics/mock", {
             method: 'POST',
-            headers: {'Content-Type': 'application/json'},
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 params: {
                     url: utils.url.getRootLocation(),

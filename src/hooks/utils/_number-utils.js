@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Thorn Monyudom
  * @date 2025-05-10
  */
 
@@ -24,11 +24,11 @@ export const _numberUtils = {
      */
     forceIntoBounds: (number, min, max, defaultValue) => {
         const toNumber = Number(number)
-        if(number === null || number === undefined || isNaN(toNumber))
+        if (number === null || number === undefined || isNaN(toNumber))
             return defaultValue || min
 
-        if(toNumber > max) return defaultValue || max
-        else if(toNumber < min) return defaultValue || min
+        if (toNumber > max) return defaultValue || max
+        else if (toNumber < min) return defaultValue || min
         else return toNumber
 
     },

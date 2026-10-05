@@ -221,7 +221,7 @@ function ArticleContactFormContentFields({ onInput, didSubmit }) {
             <RowFormGroup className={`${splitColClass}`}>
                 <RowFormGroupItem>
                     <Input id={`contact-form-name`}
-                           name={`name`}
+                           name={`user_name`}
                            type={`text`}
                            model={name}
                            setModel={setName}
@@ -233,7 +233,7 @@ function ArticleContactFormContentFields({ onInput, didSubmit }) {
 
                 <RowFormGroupItem>
                     <Input id={`contact-form-email`}
-                           name={`email`}
+                           name={`user_email`}
                            type={`email`}
                            model={email}
                            setModel={setEmail}
@@ -245,7 +245,7 @@ function ArticleContactFormContentFields({ onInput, didSubmit }) {
 
                 <RowFormGroupItem>
                     <Input id={`contact-form-subject`}
-                           name={`contact-message-subject`}
+                           name={`subject`}
                            type={`text`}
                            model={subject}
                            setModel={setSubject}
@@ -259,7 +259,7 @@ function ArticleContactFormContentFields({ onInput, didSubmit }) {
             <RowFormGroup className={`${splitColClass}`}>
                 <RowFormGroupItem>
                     <Textarea id={`contact-form-textarea`}
-                              name={`message`}
+                              name={`user_message`}
                               model={message}
                               setModel={setMessage}
                               placeholder={language.getString("message")}

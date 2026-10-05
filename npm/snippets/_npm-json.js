@@ -1,8 +1,8 @@
 /**
- * @author Ryan Balieiro
+ * @author Thorn Monyudom
  * @description Handy utilities to help manage JSON files within your npm scripts.
  */
-import {useNpmLogger} from "./_npm-log.js"
+import { useNpmLogger } from "./_npm-log.js"
 import path from "path"
 import fs from "fs"
 
@@ -18,7 +18,7 @@ export const useNpmJsonUtils = () => {
         let jsonData = {}
         const evaluation = evaluatePath(jsonPath)
 
-        if(!evaluation.fileExists) {
+        if (!evaluation.fileExists) {
             logger.log(logger.LogTypes.WARNING, `Couldn't find JSON file: ${jsonPath}. Returning empty object instead.`)
             return jsonData
         }
@@ -58,7 +58,7 @@ export const useNpmJsonUtils = () => {
      */
     const save = (jsonPath, jsonData) => {
         const evaluation = evaluatePath(jsonPath)
-        if(!evaluation.fileExists) {
+        if (!evaluation.fileExists) {
             logger.log(logger.LogTypes.WARNING, `Couldn't find JSON file: ${jsonPath}.`)
             return
         }
@@ -78,10 +78,10 @@ export const useNpmJsonUtils = () => {
      */
     const update = (jsonPath, newValues) => {
         const jLoaded = open(jsonPath)
-        if(!jLoaded)
+        if (!jLoaded)
             return
 
-        for(let field in newValues)
+        for (let field in newValues)
             jLoaded[field] = newValues[field]
         save(jsonPath, jLoaded)
     }
@@ -92,7 +92,7 @@ export const useNpmJsonUtils = () => {
      */
     const overwrite = (jsonPath, newValues) => {
         const jLoaded = open(jsonPath)
-        if(!jLoaded)
+        if (!jLoaded)
             return
         save(jsonPath, newValues)
     }
@@ -104,7 +104,7 @@ export const useNpmJsonUtils = () => {
     const evaluatePath = (jsonPath) => {
         const resolvedPath = path.resolve(baseDir, jsonPath)
         const fileExists = fs.existsSync(resolvedPath)
-        return {jsonPath, resolvedPath, fileExists}
+        return { jsonPath, resolvedPath, fileExists }
     }
 
     return {

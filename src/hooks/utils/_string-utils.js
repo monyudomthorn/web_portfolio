@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Thorn Monyudom
  * @date 2025-05-10
  */
 
@@ -60,7 +60,7 @@ export const _stringUtils = {
      * @return {string}
      */
     extractFirstPeriod: (string) => {
-        if(!string)
+        if (!string)
             return string
 
         const match = String(string).match(/.*?\./)
@@ -83,7 +83,7 @@ export const _stringUtils = {
      * @param {String} string
      */
     if: (condition, string) => {
-        if(condition) return string
+        if (condition) return string
         return ""
     },
 
@@ -93,10 +93,10 @@ export const _stringUtils = {
      * @return {string|*}
      */
     limitTextSize: (string, maxChars) => {
-        if(!string)
+        if (!string)
             return null
 
-        if(string.length <= maxChars) {
+        if (string.length <= maxChars) {
             return string
         }
 
@@ -109,7 +109,7 @@ export const _stringUtils = {
      * @return {string|*}
      */
     limitTextSizeWithoutCroppingWords: (string, maxChars) => {
-        if(!string)
+        if (!string)
             return null
 
         if (string.length <= maxChars) {
@@ -130,7 +130,7 @@ export const _stringUtils = {
      * @return {string}
      */
     stripHTMLTags: (string) => {
-        if(!string)
+        if (!string)
             return ""
 
         return String(string).replace(/<[^>]*>/g, '')
@@ -144,7 +144,7 @@ export const _stringUtils = {
      * @param {Number} percentage
      */
     toDisplayPercentage: (percentage) => {
-        if(percentage === null || percentage === undefined || isNaN(percentage))
+        if (percentage === null || percentage === undefined || isNaN(percentage))
             return null
         return percentage + "%"
     }

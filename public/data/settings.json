@@ -5,18 +5,16 @@
         "stayOnThePreloaderScreen": false,
         "version": "2.0.3"
     },
-
     "preloaderSettings": {
         "enabled": true,
         "title": "React <strong>Portfolio</strong>",
-        "subtitle": "by Ryan Balieiro",
+        "subtitle": "by Thorn Monyudom",
         "logoOffset": {
             "right": 14,
             "top": 2,
             "bottom": 0
         }
     },
-
     "templateSettings": {
         "animatedCursorEnabled": true,
         "backgroundStyle": "animated",
@@ -25,7 +23,6 @@
         "fullscreenEnabled": true,
         "showSpinnerOnThemeChange": true
     },
-
     "supportedLanguages": [
         {
             "name": "English",
@@ -33,32 +30,23 @@
             "flagUrl": "images/flags/en-us.png"
         },
         {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
-        },
-        {
-            "name": "Français",
-            "id": "fr",
-            "flagUrl": "images/flags/fr.png"
-        },
-        {
-            "name": "한국어",
-            "id": "ko",
-            "flagUrl": "images/flags/ko.png"
+            "name": "ភាសាខ្មែរ",
+            "id": "km",
+            "flagUrl": "images/flags/kh.png"
         }
     ],
-
     "supportedThemes": [
         {
             "id": "dark",
             "icon": "fa-solid fa-moon",
             "dark": true,
             "locales": {
-                "en": {"name": "Dark Mode"},
-                "es": {"name": "Modo Oscuro"},
-                "fr": {"name": "Mode Sombre"},
-                "ko": {"name": "다크 모드"}
+                "en": {
+                    "name": "Dark Mode"
+                },
+                "km": {
+                    "name": "ទម្រង់ងងឹត"
+                }
             }
         },
         {
@@ -66,14 +54,15 @@
             "icon": "fa-solid fa-sun",
             "dark": false,
             "locales": {
-                "en": {"name": "Light Mode"},
-                "es": {"name": "Modo Claro"},
-                "fr": {"name": "Mode Clair"},
-                "ko": {"name": "라이트 모드"}
+                "en": {
+                    "name": "Light Mode"
+                },
+                "km": {
+                    "name": "ទម្រង់ភ្លឺ"
+                }
             }
         }
     ],
-
     "consoleMessageForDevelopers": {
         "title": "\uD83D\uDDA5️ Hey there, fellow developer!",
         "items": [
@@ -111,7 +100,6 @@
             }
         ]
     },
-
     "imagesToCache": [
         "images/pictures/profile-picture-dark.jpg",
         "images/pictures/profile-picture-light.jpg"

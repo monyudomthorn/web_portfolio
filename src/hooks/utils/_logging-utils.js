@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Thorn Monyudom
  * @date 2025-05-10
  */
 
@@ -17,7 +17,7 @@ export const _loggingUtils = {
      * @param {String} warningMessage
      */
     warn: (component, warningMessage) => {
-        if(!console || !console.log)
+        if (!console || !console.log)
             return
         console.warn(`[${component}] ${warningMessage}`)
     },
@@ -43,10 +43,10 @@ export const _loggingUtils = {
      * @param {String} primaryColor
      */
     info: (title, items, primaryColor) => {
-        if(!console || !console.log)
+        if (!console || !console.log)
             return
 
-        if(title) {
+        if (title) {
             _loggingUtils.stylizedLog(
                 `\n${title}\n`,
                 primaryColor,
