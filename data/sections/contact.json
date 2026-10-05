@@ -1,0 +1,132 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Don't hesitate to",
+                "title_long": "{{Contact}} Me"
+            },
+            "km": {
+                "title_short": "ទំនាក់ទំនង",
+                "title_short_nav": "ទំនាក់ទំនង",
+                "title_long_prefix": "កុំស្ទាក់ស្ទើរក្នុងការ",
+                "title_long": "{{ទាក់ទង}}មកខ្ញុំ"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleContactForm",
+            "settings": {
+                "email_js_public_key": "eUjJAlZZnMeE9c-Hq",
+                "email_js_service_id": "service_0cwdegb",
+                "email_js_template_id": "template_hbh5ihb"
+            },
+            "locales": {
+                "en": {
+                    "contact_thank_you_title": "{{Thanks}} for the contact!",
+                    "contact_thank_you_body": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
+                    "contact_thank_you_footer": "The reply will be sent to your email address: {{$email}}",
+                    "title": "Send me a {{message}}"
+                },
+                "km": {
+                    "contact_thank_you_title": "{{សូមអរគុណ}} សម្រាប់ការទំនាក់ទំនង!",
+                    "contact_thank_you_body": "សាររបស់អ្នកត្រូវបានទទួល ហើយខ្ញុំនឹងឆ្លើយតបទៅកាន់អ្នកឆាប់ៗនេះ។ សូមអរគុណសម្រាប់ពេលវេលារបស់អ្នក!",
+                    "contact_thank_you_footer": "ការឆ្លើយតបនឹងត្រូវផ្ញើទៅកាន់អ៊ីមែលរបស់អ្នក៖ {{$email}}",
+                    "title": "ផ្ញើ{{សារ}}មកកាន់ខ្ញុំ"
+                }
+            },
+            "items": null
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Or if you {{prefer}}..."},
+                "km": {"title": "ឬប្រសិនបើអ្នក{{ចង់}}..."}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-phone",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "+855 (088) 200-1114",
+                    "link": {"href": "tel:855882001114", "tooltipString": "call_me"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "km": {"title": "ទូរស័ព្ទ"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "thorn.monyudom.2003@email.com",
+                    "link": {"href": "mailto:thorn.monyudom.2003@email.com", "tooltipString": "email_me"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "km": {"title": "អ៊ីមែល"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@monyudomthorn",
+                    "link": {"href": "https://www.linkedin.com/in/monyudom-thorn?utm_source=share_via&utm_content=profile&utm_medium=member_ios", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "LinkedIn"},
+                        "km": {"title": "LinkedIn"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-facebook",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "Thorn Monyudom",
+                    "link": {"href": "https://web.facebook.com/profile.php?id=100024596649019", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "Facebook"},
+                        "km": {"title": "Facebook"}
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-instagram",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@monyudom.exe",
+                    "link": {"href": "https://www.instagram.com/monyudom.exe?stkn=MW50OTF3MGx5c2I4cQ%3D%3D&utm_source=qr", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "Instagram"},
+                        "km": {"title": "Instagram"}
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-tiktok",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@monyudom.th",
+                    "link": {"href": "https://www.tiktok.com/@monyudom.th?is_from_webapp=1&sender_device=pc", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": { "title": "TikTok" },
+                        "km": { "title": "TikTok" }
+                    }
+                }
+            ]
+        }
+    ]
+}

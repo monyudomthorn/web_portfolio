@@ -1,0 +1,136 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Career",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Open for",
+                "title_long": "Work & {{Opportunities}}"
+            },
+            "km": {
+                "title_short": "ឱកាសការងារ",
+                "title_short_nav": "បទពិសោធន៍",
+                "title_long_prefix": "បើកទទួល",
+                "title_long": "ឱកាស{{ការងារ}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{Open for Opportunities}}"},
+                "km": {"title": "{{បើកទទួលឱកាសការងារ និងកម្មសិក្សា}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I am currently an enthusiastic MIS student and an aspiring {{Web Full Stack Developer & Graphic Designer}} actively looking for [[Internship]], [[Junior / Entry-Level]], or [[Freelance]] opportunities.</p><p>Although I am at the start of my professional journey, I have built a strong foundation through hands-on academic coursework, personal web projects, and practical design work. I bring strong dedication, fast learning agility, and a strong drive to contribute to real-world teams.</p><p>Ready to bring energy, creativity, and fresh ideas to your organization!</p>"
+                        },
+                        "km": {
+                            "text": "<p>បច្ចុប្បន្នខ្ញុំជានិស្សិតផ្នែកគ្រប់គ្រងប្រព័ន្ធព័ត៌មាន (MIS) និងជាអ្នកបង្កើតគេហទំព័រ {{Web Full Stack Developer & Graphic Designer}} ជំនាន់ថ្មី ដែលកំពុងស្វែងរកឱកាស [[កម្មសិក្សា (Internship)]], [[ការងារកម្រិតដំបូង (Junior / Entry-Level)]] ឬការងារ [[Freelance]]។</p><p>ទោះបីជាខ្ញុំទើបតែចាប់ផ្តើមលើវិថីអាជីពនេះ ប៉ុន្តែខ្ញុំបានពង្រឹងមូលដ្ឋានគ្រឹះយ៉ាងរឹងមាំតាមរយៈការសិក្សា គម្រោងអនុវត្តផ្ទាល់ និងការរចនាក្រាហ្វិក។ ខ្ញុំមានការប្តេជ្ញាចិត្តខ្ពស់ រៀនសូត្ររហ័ស និងត្រៀមខ្លួនជាស្រេចក្នុងការចូលរួមសហការជាមួយក្រុមការងារ។</p><p>ត្រៀមខ្លួនជាស្រេចក្នុងការនាំយកថាមពល ភាពច្នៃប្រឌិត និងគំនិតថ្មីៗមកកាន់ស្ថាប័នរបស់អ្នក!</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleCards",
+            "locales": {
+                "en": {"title": "What I Bring to Your {{Team}}"},
+                "km": {"title": "អ្វីដែលខ្ញុំអាចរួមចំណែកដល់ {{ក្រុមការងារ}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Solid {{Foundation}}",
+                            "text": "Equipped with strong fundamentals in Full Stack Web Development (React, JavaScript, TypeScript, PHP) and database management."
+                        },
+                        "km": {
+                            "title": "មូលដ្ឋានគ្រឹះ {{រឹងមាំ}}",
+                            "text": "មានចំណេះដឹងគ្រឹះច្បាស់លាស់ក្នុងការអភិវឌ្ឍគេហទំព័រ Full Stack (React, JavaScript, TypeScript, PHP) និងការគ្រប់គ្រងទិន្នន័យ។"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Fast {{Learner}}",
+                            "text": "Highly adaptable, quickly mastering new frameworks, modern libraries, and development workflows to deliver quality results."
+                        },
+                        "km": {
+                            "title": "រៀនសូត្រ {{រហ័ស}}",
+                            "text": "មានភាពបត់បែនខ្ពស់ ឆាប់ចាប់បានបច្ចេកវិទ្យា ឧបករណ៍ និងរបៀបធ្វើការថ្មីៗយ៉ាងមានប្រសិទ្ធភាព។"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-users",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Team {{Collaboration}}",
+                            "text": "Committed to active communication, punctuality, high responsibility, and positive collaboration in team environments."
+                        },
+                        "km": {
+                            "title": "ការងារ {{ជាក្រុម}}",
+                            "text": "មានទំនួលខុសត្រូវខ្ពស់ គោរពពេលវេលា ទំនាក់ទំនងច្បាស់លាស់ និងសហការការងារជាក្រុមដោយភាពរួសរាយរាក់ទាក់។"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Creative {{Eye}}",
+                            "text": "Combining software development skills with graphic design capabilities (Photoshop & Illustrator) for great user experience."
+                        },
+                        "km": {
+                            "title": "ភាពច្នៃប្រឌិត {{UI/UX}}",
+                            "text": "រួមបញ្ចូលគ្នានូវជំនាញសរសេរកូដ និងការរចនាក្រាហ្វិក (Photoshop & Illustrator) ដើម្បីបង្កើតបទពិសោធន៍អ្នកប្រើប្រាស់ដ៏ទាក់ទាញ។"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

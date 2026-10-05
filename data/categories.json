@@ -1,0 +1,36 @@
+{
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": {"title": "Home"},
+                "km": {"title": "ទំព័រដើម"}
+            }
+        },
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": {"title": "History"},
+                "km": {"title": "ប្រវត្តិរូប"}
+            }
+        },
+        {
+            "id": "showcase",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {
+                "en": {"title": "Showcase"},
+                "km": {"title": "ស្នាដៃ"}
+            }
+        },
+        {
+            "id": "more",
+            "faIcon": "fa-regular fa-object-ungroup",
+            "locales": {
+                "en": {"title": "More"},
+                "km": {"title": "ផ្សេងៗ"}
+            }
+        }
+    ]
+}

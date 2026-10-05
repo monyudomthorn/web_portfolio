@@ -1,0 +1,317 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "km": {
+                "title_short": "ព័ត៌មានថ្មីៗ",
+                "title_short_nav": "បច្ចុប្បន្នភាព",
+                "title_long_prefix": "សូមទស្សនា",
+                "title_long": "ព័ត៌មាន{{ថ្មីៗ}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-tablet-screen-button",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "03",
+                            "text": "Apps Published"
+                        },
+                        "km": {
+                            "text": "កម្មវិធីដែលបានផ្សព្វផ្សាយ"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-star",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "100+",
+                            "text": "Stars on GitHub"
+                        },
+                        "km": {
+                            "text": "ផ្កាយលើ GitHub"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-globe",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "12",
+                            "text": "Countries visited"
+                        },
+                        "km": {
+                            "text": "ប្រទេសដែលបានទៅដល់"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "07",
+                            "text": "Open-source projects"
+                        },
+                        "km": {
+                            "text": "គម្រោង Open-source"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-coffee",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "20,000",
+                            "text": "Coffees consumed"
+                        },
+                        "km": {
+                            "text": "កែវកាហ្វេដែលបានញ៉ាំ"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "1,000,000+",
+                            "text": "Lines of code"
+                        },
+                        "km": {
+                            "text": "បន្ទាត់កូដដែលបានសរសេរ"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Infinite",
+                            "text": "Passion for learning"
+                        },
+                        "km": {
+                            "title": "គ្មានដែនកំណត់",
+                            "text": "ចំណង់ចំណូលចិត្តក្នុងការរៀនសូត្រ"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Recent {{Updates}}" },
+                "km": { "title": "បច្ចុប្បន្នភាព{{ថ្មីៗ}}" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2022, "month": 9},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Relocating to {{California!}}",
+                            "province": "Ontario",
+                            "country": "Canada",
+                            "institution": "",
+                            "text": "I’ve recently made the move to California, USA, to explore new opportunities, both professionally and personally. I’m looking forward to discovering what this vibrant state has to offer and embracing all the challenges and experiences that come with this new chapter in my life. Excited for what’s ahead! Stay tuned for updates on my journey and the adventures that await in the Golden State!"
+                        },
+                        "km": {
+                            "title": "ការផ្លាស់ប្តូរទៅ {{កាលីហ្វ័រញ៉ា!}}",
+                            "province": "Ontario",
+                            "country": "កាណាដា",
+                            "institution": "",
+                            "text": "ខ្ញុំទើបតែបានផ្លាស់ទៅរដ្ឋកាលីហ្វ័រញ៉ា សហរដ្ឋអាមេរិក ដើម្បីស្វែងរកឱកាសថ្មីៗទាំងផ្នែកការងារ និងផ្ទាល់ខ្លួន។ ខ្ញុំទន្ទឹងរង់ចាំការស្វែងរកបទពិសោធន៍ថ្មីៗ និងការប្រឈមមុខនឹងឱកាសនៅក្នុងជំពូកថ្មីនៃជីវិតនេះ!"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2023, "month": 6},
+                    "preview": {
+                        "links": [{
+                            "href": "https://www.youtube.com/@jomakaze",
+                            "tooltipString": "open_website",
+                            "faIcon": "fa-solid fa-eye"
+                        }],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=oFCy3vEIAQk"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Started my own {{Youtube Channel!}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "",
+                            "text": "I’m thrilled to announce the launch of my own YouTube channel! 🎥✨ Join me on this exciting journey as I share my passion for technology, coding, and all things digital. From tutorials and tips to project showcases, I can’t wait to connect with you all through this platform. Don’t forget to subscribe and hit the notification bell to stay updated on my latest videos. Let’s embark on this adventure together!"
+                        },
+                        "km": {
+                            "title": "ចាប់ផ្តើមបង្កើត {{ឆានែល YouTube ផ្ទាល់ខ្លួន!}}",
+                            "province": "កាលីហ្វ័រញ៉ា",
+                            "country": "សហរដ្ឋអាមេរិក",
+                            "institution": "",
+                            "text": "ខ្ញុំពិតជារំភើបក្នុងការប្រកាសបើកដំណើរការឆានែល YouTube ផ្ទាល់ខ្លួន! 🎥✨ សូមចូលរួមដំណើរនេះជាមួយខ្ញុំដើម្បីចែករំលែកចំណេះដឹងបច្ចេកវិទ្យា ការសរសេរកូដ និងការបង្ហាញគម្រោងផ្សេងៗ។ កុំភ្លេចចុច Subscribe ដើម្បីទទួលបានវីដេអូថ្មីៗ!"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2024, "month": 12},
+                    "preview": {
+                        "links": [
+                            {"href": "https://medium.com", "tooltipString": "open_website", "faIcon": "fa-brands fa-medium"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Working on a new {{mobile project!}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "",
+                            "text": "I’m excited to share that I’m currently working on a new mobile project! Some features of this project include:",
+                            "list": [
+                                "Cross-platform compatibility with iOS and Android",
+                                "User-friendly interface with intuitive navigation",
+                                "Integration with popular APIs for enhanced functionality",
+                                "Real-time data synchronization for seamless user experience"
+                            ]
+                        },
+                        "km": {
+                            "title": "កំពុងដំណើរការបង្កើត {{គម្រោងកម្មវិធីទូរស័ព្ទថ្មី!}}",
+                            "province": "កាលីហ្វ័រញ៉ា",
+                            "country": "សហរដ្ឋអាមេរិក",
+                            "institution": "",
+                            "text": "ខ្ញុំពិតជារីករាយក្នុងការចែករំលែកថាខ្ញុំកំពុងបង្កើតគម្រោងទូរស័ព្ទថ្មីមួយ! មុខងារសំខាន់ៗរួមមាន៖",
+                            "list": [
+                                "ដំណើរការលើទាំង iOS និង Android (Cross-platform)",
+                                "ចំណុចប្រទាក់ងាយស្រួលប្រើប្រាស់",
+                                "ការរួមបញ្ចូលជាមួយ APIs ពេញនិយម",
+                                "ការធ្វើសមកាលកម្មទិន្នន័យជាក់ស្តែង (Real-time)"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "date": {"year": 2025, "month": 3},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Attending the {{Tech Conference 2025!}}",
+                            "province": "Tokyo",
+                            "country": "Japan",
+                            "institution": "Tech Innovators Inc.",
+                            "text": "I’m thrilled to announce that I’ll be attending the [[Tech Conference 2025]] in Tokyo, Japan! This event is a fantastic opportunity to connect with industry leaders, learn about the latest trends in technology, and share insights with fellow tech enthusiasts. I’m looking forward to engaging in discussions, attending workshops, and exploring innovative solutions that are shaping the future of our industry. If you’re attending the conference, let’s connect! I’d love to meet fellow developers and tech lovers. Stay tuned for updates and highlights from the event!"
+                        },
+                        "km": {
+                            "title": "ចូលរួមសន្និសីទ {{Tech Conference 2025!}}",
+                            "province": "តូក្យូ",
+                            "country": "ជប៉ុន",
+                            "institution": "Tech Innovators Inc.",
+                            "text": "ខ្ញុំពិតជារំភើបក្នុងការប្រកាសថាខ្ញុំនឹងចូលរួម [[Tech Conference 2025]] នៅទីក្រុងតូក្យូ ប្រទេសជប៉ុន! ព្រឹត្តិការណ៍នេះជាឱកាសដ៏ល្អដើម្បីភ្ជាប់ទំនាក់ទំនងជាមួយអ្នកដឹកនាំក្នុងវិស័យបច្ចេកវិទ្យា និងស្វែងយល់ពីនិន្នាការចុងក្រោយបង្អស់។"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "date": {"year": 2025, "month": 6},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/ryanbalieiro/react-portfolio-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Launched my {{personal website!}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "",
+                            "text": "I’m excited to announce the launch of my [[personal website]]! 🎉 This platform is a space where I can share my projects, blog posts, and insights into the world of technology and development. It’s been a labor of love, and I can’t wait for you all to explore it. Here are some highlights of what you can find on the site:",
+                            "list": [
+                                "Portfolio showcasing my projects and contributions",
+                                "Blog with articles on technology, coding, and personal experiences",
+                                "Contact form for inquiries and collaborations",
+                                "Links to my social media profiles and GitHub"
+                            ]
+                        },
+                        "km": {
+                            "title": "សម្ពោធ {{គេហទំព័រផ្ទាល់ខ្លួន!}}",
+                            "province": "កាលីហ្វ័រញ៉ា",
+                            "country": "សហរដ្ឋអាមេរិក",
+                            "institution": "",
+                            "text": "ខ្ញុំពិតជារំភើបក្នុងការប្រកាសបើកដំណើរការ [[គេហទំព័រផ្ទាល់ខ្លួន]]! 🎉 វេទិកានេះជាកន្លែងដែលខ្ញុំអាចចែករំលែកស្នាដៃ និងគម្រោងនានា។ អ្វីដែលអ្នកអាចស្វែងរកបាននៅលើគេហទំព័ររួមមាន៖",
+                            "list": [
+                                "ស្នាដៃ និងគម្រោងដែលបានបង្កើត",
+                                "អត្ថបទប្លុកស្តីពីបច្ចេកវិទ្យា និងការសរសេរកូដ",
+                                "ទម្រង់ទំនាក់ទំនងសម្រាប់ការសហការ",
+                                "តំណភ្ជាប់ទៅកាន់បណ្តាញសង្គម និង GitHub"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

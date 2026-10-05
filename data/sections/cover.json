@@ -1,0 +1,203 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{THORN Monyudom!}}"
+            },
+            "km": {
+                "title_short": "សូមស្វាគមន៍!",
+                "title_short_nav": "អំពីខ្ញុំ",
+                "title_long_prefix": "ជម្រាបសួរ",
+                "title_long": "{{THORN Monyudom}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Phnom Penh, Cambodia",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "thorn.monyudom.2003@gmail.com",
+                    "link": {"href": "mailto:thorn.monyudom.2003@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@monyudomthorn",
+                    "link": {"href": "https://github.com/monyudomthorn", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "km": {"title": "{{បន្តិចបន្តួច}} អំពីខ្ញុំ..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m an aspiring {{Web Full Stack Developer}} & {{Graphic Designer}} with a strong passion for building modern, responsive web applications and visually engaging interfaces. I also enjoy graphic design and creative visual storytelling.</p><p>As an entry-level developer, I am constantly learning, expanding my skills, and dedicated to writing clean, functional code.</p><p>I am eager to learn, grow, and collaborate [[with you!]]</p>"
+                        },
+                        "km": {
+                            "text": "<p>ខ្ញុំជាអ្នកបង្កើតគេហទំព័រ {{Web Full Stack Developer}} និងអ្នករចនា {{Graphic Designer}} ជំនាន់ថ្មី ដែលមានចំណង់ចំណូលចិត្តខ្ពស់ក្នុងការបង្កើតគេហទំព័រទំនើប និងការរចនាចំណុចប្រទាក់អ្នកប្រើប្រាស់ដែលទាក់ទាញ។ ខ្ញុំក៏ចូលចិត្តការរចនាក្រាហ្វិក (Graphic Design) ផងដែរ។</p><p>ក្នុងនាមជាអ្នកចាប់ផ្តើម ខ្ញុំតែងតែខិតខំរៀនសូត្រ អភិវឌ្ឍន៍ជំនាញជានិច្ច និងប្តេជ្ញាបង្កើតស្នាដៃប្រកបដោយគុណភាព។</p><p>ខ្ញុំរីករាយ និងទន្ទឹងរង់ចាំធ្វើការសហការ [[ជាមួយអ្នក!]]</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "km": {"title": "ចំណាប់អារម្មណ៍ {{ផ្ទាល់ខ្លួន}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-futbol",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Playing {{Football}}",
+                            "text": "Enjoying team sports, staying active, and playing football with friends."
+                        },
+                        "km": {
+                            "title": "ការលេង {{បាល់ទាត់}}",
+                            "text": "ចូលចិត្តកីឡាជាក្រុម ការហាត់ប្រាណ និងការលេងបាល់ទាត់ជាមួយមិត្តភក្តិ។"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-headphones",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Listening to {{Music}}",
+                            "text": "Exploring diverse genres, discovering new tracks, and relaxing with good sounds."
+                        },
+                        "km": {
+                            "title": "ការស្តាប់ {{តន្ត្រី}}",
+                            "text": "ចូលចិត្តស្តាប់តន្ត្រីចម្រុះប្រភេទ ស្វែងរកបទចម្រៀងថ្មីៗ និងការសម្រាកលំហែកាយ។"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Playing {{Games}}",
+                            "text": "Engaging in strategy, team multiplayer gaming, and immersive worlds."
+                        },
+                        "km": {
+                            "title": "ការលេង {{ហ្គេម}}",
+                            "text": "ចូលចិត្តលេងហ្គេមបែបយុទ្ធសាស្ត្រ និងការកម្សាន្តជាមួយមិត្តភក្តិ។"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-camera",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Photography}}",
+                            "text": "Capturing memorable moments, street photography, and scenic landscapes."
+                        },
+                        "km": {
+                            "title": "ការថតរូប {{Photography}}",
+                            "text": "ការផ្តិតយករូបភាពអនុស្សាវរីយ៍ ទេសភាព និងការស្វែងរកប្លង់រូបភាពស្អាតៗ។"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-plane-departure",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Traveling}} & Exploring",
+                            "text": "Discovering new destinations, scenic nature, and experiencing different cultures."
+                        },
+                        "km": {
+                            "title": "ដំណើរកម្សាន្ត {{Traveling}}",
+                            "text": "ការធ្វើដំណើរទៅកាន់កន្លែងថ្មីៗ ស្វែងយល់ពីវប្បធម៌ និងធម្មជាតិស្រស់ស្អាត។"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-microphone-lines",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Singing}}",
+                            "text": "Expressing creativity through singing favorite songs and vocal melodies."
+                        },
+                        "km": {
+                            "title": "ការច្រៀង {{Singing}}",
+                            "text": "ចូលចិត្តច្រៀងចម្រៀងដែលខ្លួនស្រឡាញ់ និងការចែករំលែកអារម្មណ៍តាមរយៈតន្ត្រី។"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

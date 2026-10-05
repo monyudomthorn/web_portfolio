@@ -1,0 +1,242 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "km": {
+                "title_short": "ស្នាដៃ",
+                "title_short_nav": "ស្នាដៃ",
+                "title_long_prefix": "សូមទស្សនា",
+                "title_long": "{{ស្នាដៃ}}របស់ខ្ញុំ"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "category_all": "All",
+                "category_frontend": "Web Front-End"
+            },
+            "settings": {
+                "categorize_by": [],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_frontend",
+                    "img": "images/pictures/personal_portfolio_GD.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://monyudomthorn.netlify.app/", "tooltipString": "live_demo", "faIcon": "fa-solid fa-globe"},
+                            {"href": "https://github.com/monyudomthorn", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/personal_portfolio_GD.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Personal Portfolio & Graphic Design",
+                            "text": "A creative personal portfolio website showcasing front-end development and graphic design, built with <b>HTML5</b>, <b>CSS3</b>, and <b>JavaScript</b> with responsive design and modern dark UI.",
+                            "tags": ["HTML5", "CSS3", "JavaScript", "Graphic Design", "Portfolio"]
+                        },
+                        "km": {
+                            "title": "គេហទំព័រផ្ទាល់ខ្លួន (Personal Portfolio)",
+                            "text": "គេហទំព័របង្ហាញស្នាដៃផ្ទាល់ខ្លួន និងការរចនាក្រាហ្វិក បង្កើតឡើងដោយ <b>HTML5</b>, <b>CSS3</b> និង <b>JavaScript</b> ជាមួយការរចនាបែបទំនើបទាន់សម័យ និង Responsive Design។",
+                            "tags": ["HTML5", "CSS3", "JavaScript", "Graphic Design", "Portfolio"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_frontend",
+                    "img": "images/pictures/portfolio-study-tracking.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://study-management-gamma.vercel.app/login", "tooltipString": "live_demo", "faIcon": "fa-solid fa-globe"},
+                            {"href": "https://github.com/monyudomthorn", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-study-tracking.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Study Tracking System",
+                            "text": "A student portal and study tracking dashboard built with <b>HTML5</b>, <b>CSS3</b>, and <b>JavaScript</b>, featuring attendance tracking, subject overview, and progress metrics.",
+                            "tags": ["HTML5", "CSS3", "JavaScript", "Dashboard", "ReactJS"]
+                        },
+                        "km": {
+                            "title": "ប្រព័ន្ធតាមដានការសិក្សា (Study Tracking)",
+                            "text": "ផ្ទាំងគ្រប់គ្រង និងតាមដានការសិក្សាសម្រាប់សិស្ស-និស្សិត បង្កើតឡើងដោយ <b>HTML5</b>, <b>CSS3</b> និង <b>JavaScript</b> ដែលមានមុខងារតាមដានវត្តមាន មុខវិជ្ជា និងវឌ្ឍនភាព។",
+                            "tags": ["HTML5", "CSS3", "JavaScript", "Dashboard", "ReactJS"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_frontend",
+                    "img": "images/pictures/portfolio-final-frontend.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://finalwd1-y1s2.vercel.app/", "tooltipString": "live_demo", "faIcon": "fa-solid fa-globe"},
+                            {"href": "https://github.com/monyudomthorn", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-final-frontend.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Final Web Front-End",
+                            "text": "A complete front-end capstone project featuring modern typography, fluid grid systems, interactive elements, and multi-device <b>responsive layouts</b>.",
+                            "tags": ["HTML5", "CSS3", "JavaScript", "Responsive Design"]
+                        },
+                        "km": {
+                            "title": "គម្រោងបញ្ចប់ Web Front-End",
+                            "text": "គម្រោងបញ្ចប់វគ្គសិក្សា Web Front-End ដែលរចនាឡើងជាមួយអក្សរពុម្ពទាន់សម័យ រចនាសម្ព័ន្ធ Layout ឆ្លើយតបគ្រប់ឧបករណ៍ <b>Responsive Design</b>។",
+                            "tags": ["HTML5", "CSS3", "JavaScript", "Responsive Design"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_frontend",
+                    "img": "images/pictures/portfolio-sabay-clone.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/monyudomthorn", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-sabay-clone.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Clone Sabay KH Website",
+                            "text": "A front-end recreation of the popular <b>Sabay News</b> portal, focusing on modern news card grids, navigation header, and responsive styling.",
+                            "tags": ["HTML5", "CSS3", "Clone Website"]
+                        },
+                        "km": {
+                            "title": "គេហទំព័រក្លូន Sabay News",
+                            "text": "ការបង្កើតគេហទំព័រក្លូនសារព័ត៌មាន <b>Sabay News</b> ដោយផ្តោតលើការរៀបចំប្លង់ព័ត៌មាន ប្លង់រូបភាពចម្រុះ និងការរចនាបែប Responsive។",
+                            "tags": ["HTML5", "CSS3", "Clone Website"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_frontend",
+                    "img": "images/pictures/portfolio-fetch-api.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/monyudomthorn", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-fetch-api.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Fetch API Product Catalog",
+                            "text": "An interactive product catalog that fetches live data from an external <b>REST API</b> using vanilla <b>JavaScript Fetch API</b>, rendered with <b>Bootstrap</b> cards and actions.",
+                            "tags": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "REST API"]
+                        },
+                        "km": {
+                            "title": "កម្មវិធីទាញទិន្នន័យពី API (Fetch API)",
+                            "text": "កម្មវិធីបង្ហាញទំនិញអេឡិចត្រូនិចដែលទាញទិន្នន័យជាក់ស្តែងពី <b>REST API</b> ដោយស្វ័យប្រវត្តិតាមរយៈ <b>JavaScript Fetch API</b> និង <b>Bootstrap</b>។",
+                            "tags": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "REST API"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_frontend",
+                    "img": "images/pictures/portfolio-restaurant-menu.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/monyudomthorn", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-restaurant-menu.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Restaurant Menu",
+                            "text": "A vibrant culinary website featuring food categories, sushi menus, specialty platters, and item descriptions styled with <b>HTML5</b>, <b>CSS3</b>, and <b>Bootstrap</b>.",
+                            "tags": ["HTML5", "CSS3", "Bootstrap", "Food Menu"]
+                        },
+                        "km": {
+                            "title": "ម៉ឺនុយភោជនីយដ្ឋាន (Restaurant Menu)",
+                            "text": "គេហទំព័រម៉ឺនុយមុខម្ហូប និងភោជនីយដ្ឋានដែលមានភាពទាក់ទាញ បង្ហាញពីប្រភេទម្ហូបអាហារ បញ្ជីមុខម្ហូបពិសេសៗ និងការរចនាប្លង់ដ៏ស្រស់ស្អាត។",
+                            "tags": ["HTML5", "CSS3", "Bootstrap", "Food Menu"]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_frontend",
+                    "img": "images/pictures/portfolio-computer-shop.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/monyudomthorn", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-computer-shop.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Computer Shop",
+                            "text": "A sleek tech hardware landing page showcasing PC builds, gaming components, cooling accessories, and store promotions with <b>HTML5</b> & <b>CSS3</b>.",
+                            "tags": ["HTML5", "CSS3", "E-Commerce", "PC Store"]
+                        },
+                        "km": {
+                            "title": "ហាងលក់កុំព្យូទ័រ (Computer Shop)",
+                            "text": "គេហទំព័រហាងលក់កុំព្យូទ័រ និងឧបករណ៍បច្ចេកវិទ្យាទំនើប បង្ហាញពីគ្រឿងបន្លាស់កុំព្យូទ័រ ឧបករណ៍ហ្គេម និងប្រូម៉ូសិនពិសេសៗ។",
+                            "tags": ["HTML5", "CSS3", "E-Commerce", "PC Store"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

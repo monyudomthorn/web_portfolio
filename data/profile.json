@@ -1,0 +1,33 @@
+{
+    "name": "THORN Monyudom",
+
+    "profilePictureUrl": "images/pictures/dom1.PNG",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "THORN Monyudom",
+            "localized_name_stylized": "[[THORN]] {{Monyudom}}",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Web Front-End Developer",
+                "Graphic Designer"
+            ],
+            "name_pronunciation_ipa": "/tʰɔːn mo-niː-ʔo-dom/",
+            "name_pronunciation_audio_url": ""
+        },
+        "km": {
+            "localized_name": "ថន មុនី្នឧត្តម",
+            "localized_name_stylized": "[[ថន]] {{មុនី្នឧត្តម}}",
+            "status_message_available_for_freelance": "អាចទទួលការងារ Freelance បាន!",
+            "roles": [
+                "Web Front-End Developer",
+                "Graphic Designer"
+            ]
+        }
+    }
+}
