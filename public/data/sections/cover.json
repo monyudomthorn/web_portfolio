@@ -67,10 +67,10 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "text": "<p>I’m an aspiring {{Web Full Stack Developer}} & {{Graphic Designer}} with a strong passion for building modern, responsive web applications and visually engaging interfaces. I also enjoy graphic design and creative visual storytelling.</p><p>As an entry-level developer, I am constantly learning, expanding my skills, and dedicated to writing clean, functional code.</p><p>I am eager to learn, grow, and collaborate [[with you!]]</p>"
+                            "text": "<p>I’m an aspiring {{Web Front-End Developer}} & {{Graphic Designer}} with a strong passion for building modern, responsive web applications and visually engaging interfaces. I also enjoy graphic design and creative visual storytelling.</p><p>As an entry-level developer, I am constantly learning, expanding my skills, and dedicated to writing clean, functional code.</p><p>I am eager to learn, grow, and collaborate [[with you!]]</p>"
                         },
                         "km": {
-                            "text": "<p>ខ្ញុំជាអ្នកបង្កើតគេហទំព័រ {{Web Full Stack Developer}} និងអ្នករចនា {{Graphic Designer}} ជំនាន់ថ្មី ដែលមានចំណង់ចំណូលចិត្តខ្ពស់ក្នុងការបង្កើតគេហទំព័រទំនើប និងការរចនាចំណុចប្រទាក់អ្នកប្រើប្រាស់ដែលទាក់ទាញ។ ខ្ញុំក៏ចូលចិត្តការរចនាក្រាហ្វិក (Graphic Design) ផងដែរ។</p><p>ក្នុងនាមជាអ្នកចាប់ផ្តើម ខ្ញុំតែងតែខិតខំរៀនសូត្រ អភិវឌ្ឍន៍ជំនាញជានិច្ច និងប្តេជ្ញាបង្កើតស្នាដៃប្រកបដោយគុណភាព។</p><p>ខ្ញុំរីករាយ និងទន្ទឹងរង់ចាំធ្វើការសហការ [[ជាមួយអ្នក!]]</p>"
+                            "text": "<p>ខ្ញុំជាអ្នកបង្កើតគេហទំព័រ {{Web Front-End Developer}} និងអ្នករចនា {{Graphic Designer}} ជំនាន់ថ្មី ដែលមានចំណង់ចំណូលចិត្តខ្ពស់ក្នុងការបង្កើតគេហទំព័រទំនើប និងការរចនាចំណុចប្រទាក់អ្នកប្រើប្រាស់ដែលទាក់ទាញ។ ខ្ញុំក៏ចូលចិត្តការរចនាក្រាហ្វិក (Graphic Design) ផងដែរ។</p><p>ក្នុងនាមជាអ្នកចាប់ផ្តើម ខ្ញុំតែងតែខិតខំរៀនសូត្រ អភិវឌ្ឍន៍ជំនាញជានិច្ច និងប្តេជ្ញាបង្កើតស្នាដៃប្រកបដោយគុណភាព។</p><p>ខ្ញុំរីករាយ និងទន្ទឹងរង់ចាំធ្វើការសហការ [[ជាមួយអ្នក!]]</p>"
                         }
                     }
                 }

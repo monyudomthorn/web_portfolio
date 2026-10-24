@@ -333,27 +333,8 @@
                             "text": "ការរចនាមូលដ្ឋានទិន្នន័យ Relational Database, ការសរសេរ Query, Joins និងការគ្រប់គ្រងទិន្នន័យ។"
                         }
                     }
-                },
-                {
-                    "id": 4,
-                    "img": "",
-                    "faIcon": "fa-brands fa-node-js",
-                    "faIconColors": {"bg": "", "fill": "#339933"},
-                    "date": {"year": null, "month": null},
-                    "percentage": 55,
-                    "locales": {
-                        "en": {
-                            "title": "Node.js (basics)",
-                            "level": "Basic",
-                            "text": "Server environment setup, npm package management, and basic backend scripts."
-                        },
-                        "km": {
-                            "title": "Node.js (កម្រិតមូលដ្ឋាន)",
-                            "level": "មូលដ្ឋាន",
-                            "text": "ការដំឡើង Server environment, ការគ្រប់គ្រង npm packages និងកូដ backend មូលដ្ឋាន។"
-                        }
-                    }
                 }
+                
             ]
         },
 
